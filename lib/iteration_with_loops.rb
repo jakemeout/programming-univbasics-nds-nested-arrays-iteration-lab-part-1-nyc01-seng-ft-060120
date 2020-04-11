@@ -5,8 +5,8 @@ while row_index < src.count do
   while element_index < src[row_index].count do
     if element_index % 2 == 0 
       puts src[element_index]
-    element_index += 1
     end
+    element_index += 1
   end
   row_index += 1
 end 
