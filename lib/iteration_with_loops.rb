@@ -6,9 +6,10 @@ while row_index < src.count do
     if element_index % 2 == 0 
       puts element_index
     element_index += 1
+    end
   end
   row_index += 1
-end #=> nil
+end 
   
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
